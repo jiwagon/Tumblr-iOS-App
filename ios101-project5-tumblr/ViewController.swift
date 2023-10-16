@@ -8,16 +8,29 @@ import Nuke
 
 class ViewController: UIViewController, UITableViewDataSource {
     
+    private var posts: [Post] = []
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        print("🍏 numberOfRowsInSection called with posts count: \(posts.count)")
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        print("🍏 cellForRowAt called for row: \(indexPath.row)")
        
-        // Create the cell
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as! PostCell
+        
+        let post = posts[indexPath.row]
+        
+        if let photo = post.photos.first {
+            let url = photo.originalSize.url
+            
+            Nuke.loadImage(with: url, into: cell.postImageView)
+        }
+            
+            cell.summaryLabel.text = post.summary
 
-            cell.textLabel?.text = "Row \(indexPath.row)"
         return cell
     }
 
@@ -54,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                 let blog = try JSONDecoder().decode(Blog.self, from: data)
 
                 DispatchQueue.main.async { [weak self] in
-
+                    
                     let posts = blog.response.posts
 
 
@@ -62,6 +75,8 @@ class ViewController: UIViewController, UITableViewDataSource {
                     for post in posts {
                         print("🍏 Summary: \(post.summary)")
                     }
+                    self?.posts = posts
+                    self?.tableView.reloadData()
                 }
 
             } catch {
