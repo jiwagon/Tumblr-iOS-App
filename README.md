@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [X] App fetches posts from a different Tumblr blog
+- [X] App fetches posts from a different Tumblr blog ([https://www.tumblr.com/storyfund](url))
 - [ ] App has a refresh control to update the table view
 
 The following **additional** features are implemented:
