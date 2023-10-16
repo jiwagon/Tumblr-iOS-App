@@ -33,6 +33,7 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 - Setting constraints is the most difficult part for me. I spent an unnecessarily long time making sure the scroll list view was organized.
 - It was also challenging to set up the PostCell because I was unable to Ctrl+drag the imageView into PostCell. I made sure that the class and Identifier were changed to PostCell, but the issue still remained. I eventually restarted the project, and the issue went away.
+- There were some challenges in making the refresh control work properly as intended. I had to change the original way to initialize the URL object. Instead, I created a parameter for a URL string and only converted it into an object after the fetch post is called. In this case, we can take in the two API URLs as strings from the array list where they were stored and then convert them to URL objects as needed.
 
 ## License
 
