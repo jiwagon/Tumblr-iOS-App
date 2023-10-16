@@ -101,7 +101,10 @@ class ViewController: UIViewController, UITableViewDataSource {
 
                 DispatchQueue.main.async { [weak self] in
                     
-                    let posts = blog.response.posts
+                    //let posts = blog.response.posts
+                    
+                    // Shuffle the posts to get them in random order
+                    let posts = blog.response.posts.shuffled()
 
 
                     print("✅ We got \(posts.count) posts!")
