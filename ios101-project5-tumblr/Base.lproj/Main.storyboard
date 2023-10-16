@@ -18,38 +18,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5NR-ui-IE7">
-                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="nPV-el-L8o" customClass="PostCell" customModule="ios101_project5_tumblr" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="100"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="160" id="nPV-el-L8o" customClass="PostCell" customModule="ios101_project5_tumblr" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nPV-el-L8o" id="Meg-Gb-Ki7">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IB8-4z-KPz">
-                                                    <rect key="frame" x="0.0" y="-4" width="120" height="100"/>
+                                                    <rect key="frame" x="0.0" y="10" width="128" height="140"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="MZU-Jb-8IS"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yL6-lp-sah">
-                                                    <rect key="frame" x="128" y="0.0" width="245" height="100"/>
+                                                    <rect key="frame" x="136" y="10" width="257" height="140"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="4mW-PM-qHz"/>
+                                                        <constraint firstAttribute="height" constant="140" id="yyp-me-yMp"/>
+                                                    </constraints>
+                                                    <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="yL6-lp-sah" firstAttribute="top" secondItem="Meg-Gb-Ki7" secondAttribute="top" id="7yJ-L3-DAe"/>
-                                                <constraint firstAttribute="bottom" secondItem="yL6-lp-sah" secondAttribute="bottom" id="CDQ-4Y-dnd"/>
-                                                <constraint firstItem="yL6-lp-sah" firstAttribute="leading" secondItem="IB8-4z-KPz" secondAttribute="trailing" constant="8" symbolic="YES" id="DSw-Op-ST2"/>
-                                                <constraint firstItem="IB8-4z-KPz" firstAttribute="leading" secondItem="Meg-Gb-Ki7" secondAttribute="leading" id="FnZ-OL-frn"/>
-                                                <constraint firstAttribute="bottom" secondItem="IB8-4z-KPz" secondAttribute="bottom" constant="4" id="H4F-C5-hGs"/>
-                                                <constraint firstAttribute="trailing" secondItem="yL6-lp-sah" secondAttribute="trailing" constant="20" symbolic="YES" id="iyl-PE-2hp"/>
-                                                <constraint firstAttribute="trailing" secondItem="IB8-4z-KPz" secondAttribute="trailing" constant="273" id="mn4-HO-CZ0"/>
-                                                <constraint firstItem="IB8-4z-KPz" firstAttribute="top" secondItem="Meg-Gb-Ki7" secondAttribute="top" constant="-4" id="yED-5s-kIU"/>
+                                                <constraint firstAttribute="trailing" secondItem="yL6-lp-sah" secondAttribute="trailing" id="H7r-35-HKX"/>
+                                                <constraint firstItem="yL6-lp-sah" firstAttribute="leading" secondItem="Meg-Gb-Ki7" secondAttribute="leading" constant="136" id="JYi-7W-rd5"/>
+                                                <constraint firstAttribute="bottom" secondItem="yL6-lp-sah" secondAttribute="bottom" constant="10" id="Lxq-3b-i48"/>
+                                                <constraint firstAttribute="bottom" secondItem="IB8-4z-KPz" secondAttribute="bottom" constant="10" id="Pc3-Nl-To4"/>
+                                                <constraint firstItem="yL6-lp-sah" firstAttribute="top" secondItem="Meg-Gb-Ki7" secondAttribute="top" constant="10" id="hzJ-cp-u0V"/>
+                                                <constraint firstItem="IB8-4z-KPz" firstAttribute="leading" secondItem="Meg-Gb-Ki7" secondAttribute="leading" id="nh2-Lg-dE9"/>
+                                                <constraint firstAttribute="trailing" secondItem="IB8-4z-KPz" secondAttribute="trailing" constant="265" id="oBX-XA-WzO"/>
+                                                <constraint firstItem="IB8-4z-KPz" firstAttribute="top" secondItem="Meg-Gb-Ki7" secondAttribute="top" constant="10" id="uqp-fh-drk"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                         <connections>
                                             <outlet property="postImageView" destination="IB8-4z-KPz" id="73A-QT-WhG"/>
                                             <outlet property="summaryLabel" destination="yL6-lp-sah" id="BIB-hm-mxz"/>
