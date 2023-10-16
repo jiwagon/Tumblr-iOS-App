@@ -2,7 +2,7 @@
 
 Submitted by: Ji Zhang
 
-This simple social media app fetches a feed of blog posts from the Tumblr API and displays them in a scrolling list via a table view.
+This simple social media app fetches a feed of blog posts from the Tumblr API and displays them in a scrolling list via a table view. Users can pull to refresh and view more posts alternating content from two Tumblr accounts. 
 
 Time spent: 8 hours spent in total
 
@@ -17,11 +17,12 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [X] App fetches posts from a different Tumblr blog ([https://www.tumblr.com/storyfund](url))
-- [ ] App has a refresh control to update the table view
+- [X] App has a refresh control to update the table view
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Shuffle the posts to get them in random order
+- [X] Alternate the two Tumblr API URLs at each refresh pull
 
 ## Video Walkthrough
 
@@ -31,7 +32,8 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## Notes
 
-Setting constraints is the most difficult part for me. I spent an unnecessarily long time making sure the scroll list view was organized. It was also challenging to set up the PostCell because I was unable to Ctrl+drag the imageView into PostCell. I made sure that the class and Identifier were changed to PostCell, but the issue still remained. I eventually restarted the project, and the issue went away. 
+- Setting constraints is the most difficult part for me. I spent an unnecessarily long time making sure the scroll list view was organized.
+- It was also challenging to set up the PostCell because I was unable to Ctrl+drag the imageView into PostCell. I made sure that the class and Identifier were changed to PostCell, but the issue still remained. I eventually restarted the project, and the issue went away.
 
 ## License
 
