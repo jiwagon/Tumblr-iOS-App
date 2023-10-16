@@ -2,9 +2,9 @@
 
 Submitted by: Ji Zhang
 
-This simple social media app fetches a feed of blog posts from the Tumblr API and displays them in a scrolling list via a table view. Users can pull to refresh and view more posts alternating content from two Tumblr accounts. 
+This simple social media app fetches a feed of blog posts from the Tumblr API and displays them in a scrolling list via a table view. Users can pull to refresh and view more posts alternating content from two Tumblr accounts. The posts are shuffled to display in random order. 
 
-Time spent: 8 hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
@@ -12,7 +12,6 @@ The following **required** functionality is completed:
 
 - [X] App has a configured table view and table view call
 - [X] App populates the table view with data fetched from an API
-
 
 The following **optional** features are implemented:
 
