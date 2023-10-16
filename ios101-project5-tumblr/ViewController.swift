@@ -45,7 +45,11 @@ class ViewController: UIViewController, UITableViewDataSource {
 
 
     func fetchPosts() {
-        let url = URL(string: "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+        //let url = URL(string:             "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+        
+        // Fetch data from another tumblr blog
+        let url = URL(string: "https://api.tumblr.com/v2/blog/story.fund/posts/photo?api_key=Ltzu3a5LycCTjdLk4ZVmEVw2lU6tTruLZvob03u7HtzZSjtfO6")!
+        
         let session = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
                 print("❌ Error: \(error.localizedDescription)")
