@@ -26,7 +26,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <a href="https://imgur.com/nnFYgcc">
-    <p>Watch Demo</p>
     <img src="https://i.imgur.com/nnFYgccm.gif" title="source: imgur.com" />
 </a>
 
