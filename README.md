@@ -26,8 +26,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <div>
-    <a href="https://imgur.com/C7GURpE">
-      <p>Watch Wordle Demo on Loom</p>
+    <a href="https://i.imgur.com/C7GURpE.gif">
+      <p>Watch Tumblr APIs App Demo</p>
     </a>
     <a href="https://i.imgur.com/hWvNkCd.gif">
       <img style="max-width:300px;" src="https://i.imgur.com/C7GURpE.gif" width="252" height="540">
