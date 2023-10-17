@@ -26,13 +26,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <div>
-    <a href="https://imgur.com/gallery/hWvNkCd">
+    <a href="https://imgur.com/C7GURpE">
       <p>Watch Wordle Demo on Loom</p>
     </a>
     <a href="https://i.imgur.com/hWvNkCd.gif">
-      <img style="max-width:300px;" src="https://i.imgur.com/hWvNkCd.gif" width="252" height="540">
+      <img style="max-width:300px;" src="https://i.imgur.com/C7GURpE.gif" width="252" height="540">
     </a>
   </div>
+
   
 
 ## Notes
