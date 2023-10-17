@@ -25,8 +25,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<iframe class="imgur-embed" width="100%" height="1011" frameborder="0" src="https://i.imgur.com/nnFYgcc.gifv#embed"></iframe>
-  
+<a href="https://imgur.com/nnFYgcc"><img src="https://i.imgur.com/nnFYgcch.gif" title="source: imgur.com" /></a>
 
 ## Notes
 
