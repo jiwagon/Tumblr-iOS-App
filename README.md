@@ -29,7 +29,7 @@ The following **additional** features are implemented:
     <a href="https://imgur.com/gallery/hWvNkCd">
       <p>Watch Wordle Demo on Loom</p>
     </a>
-    <a href="https://imgur.com/gallery/hWvNkCd">
+    <a href="https://i.imgur.com/hWvNkCd.gif">
       <img style="max-width:300px;" src="https://i.imgur.com/hWvNkCd.gif" width="252" height="540">
     </a>
   </div>
