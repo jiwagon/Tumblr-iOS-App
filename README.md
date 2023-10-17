@@ -29,9 +29,7 @@ The following **additional** features are implemented:
     <a href="https://i.imgur.com/MdClZot.gif">
       <p>Watch Tumblr APIs App Demo</p>
     </a>
-    <a href="https://imgur.com/MdClZot">
-      <img style="max-width:300px;" src="https://i.imgur.com/MdClZot.gif" width="252" height="540">
-    </a>
+    <a href="https://imgur.com/MdClZot"><img src="https://i.imgur.com/MdClZot.gif" title="source: imgur.com" /></a>
   </div>
   
 
