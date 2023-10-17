@@ -25,12 +25,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<div>
-    <a href="https://i.imgur.com/MdClZot.gif">
-      <p>Watch Tumblr APIs App Demo</p>
-    </a>
-    <a href="https://imgur.com/MdClZot"><img src="https://i.imgur.com/MdClZot.gif" title="source: imgur.com" /></a>
-  </div>
+<iframe class="imgur-embed" width="100%" height="1011" frameborder="0" src="https://i.imgur.com/nnFYgcc.gifv#embed"></iframe>
   
 
 ## Notes
