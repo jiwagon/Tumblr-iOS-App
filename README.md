@@ -28,7 +28,8 @@ The following **additional** features are implemented:
 <div>
     <a href="https://i.imgur.com/nnFYgcc.gif">
       <p>Watch App Demo in gif</p>
-        <p>You will leave this page by clicking the link.</p>
+        <br>
+     You will leave this page by clicking the link above.
     </a>
     <a href="https://i.imgur.com/nnFYgcc.gif">
       <img style="max-width:300px;" src="https://i.imgur.com/nnFYgcch.gif" width="300" height="632">
