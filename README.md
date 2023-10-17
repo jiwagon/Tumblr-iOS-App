@@ -26,14 +26,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <div>
-    <a href="https://i.imgur.com/C7GURpE.gif">
+    <a href="https://i.imgur.com/MdClZot.gif">
       <p>Watch Tumblr APIs App Demo</p>
     </a>
-    <a href="https://i.imgur.com/hWvNkCd.gif">
-      <img style="max-width:300px;" src="https://i.imgur.com/C7GURpE.gif" width="252" height="540">
+    <a href="https://imgur.com/MdClZot">
+      <img style="max-width:300px;" src="https://i.imgur.com/MdClZot.gif" width="252" height="540">
     </a>
   </div>
-
   
 
 ## Notes
